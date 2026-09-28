@@ -3248,6 +3248,124 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC74")
+		(at 82.55 24.13 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d05cf5-21db-4fb4-98da-19bd7630d834")
+		(property "Reference" "U26"
+			(at 88.9 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC74"
+			(at 88.9 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
+			(at 82.55 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 82.55 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "59721c01-d95e-489e-b8bd-be493dc28b35")
+		)
+		(pin "4"
+			(uuid "b3501b5f-37fb-442a-9e4d-0aab078794f0")
+		)
+		(pin "1"
+			(uuid "9320097b-ed15-4898-b9d3-a8aecd0d275f")
+		)
+		(pin "9"
+			(uuid "9b14ce1d-8b1e-492f-b978-d48adcc40b02")
+		)
+		(pin "12"
+			(uuid "554aa41d-6353-43fd-9b58-ac7c5cf05c67")
+		)
+		(pin "2"
+			(uuid "528585ac-4a47-4181-914f-9621ee870133")
+		)
+		(pin "7"
+			(uuid "bed22f34-6760-4bd7-9eb5-8e6e2fc305df")
+		)
+		(pin "8"
+			(uuid "e7e6710a-3172-45b9-916b-1f2e48f3c148")
+		)
+		(pin "11"
+			(uuid "ba641dbd-34a9-4e73-931b-f3f6874e01da")
+		)
+		(pin "10"
+			(uuid "fa2a4b57-bacd-4d7d-9bf0-c4ca34e69fae")
+		)
+		(pin "3"
+			(uuid "03d16169-f7cf-4ef5-8a21-61dbe80ad877")
+		)
+		(pin "13"
+			(uuid "ec5e9b2a-d852-4188-a95f-dda24352061d")
+		)
+		(pin "6"
+			(uuid "f461cd7f-76dd-4d0a-9858-bf7b5e9b718c")
+		)
+		(pin "5"
+			(uuid "d34f56c2-0b9e-4c93-ba51-84979f5d7be0")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/49ec0cf1-bacd-4d61-b90d-56be863fdd16"
+					(reference "U26")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC74")
 		(at 64.77 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -3516,6 +3634,84 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/49ec0cf1-bacd-4d61-b90d-56be863fdd16"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7ef67b8-da57-4b24-bb73-e642c5cc3054")
+		(property "Reference" "#PWR0177"
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b73c4f0b-11b3-41ef-a5f1-e4380243811b")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/49ec0cf1-bacd-4d61-b90d-56be863fdd16"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -3850,6 +4046,84 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/49ec0cf1-bacd-4d61-b90d-56be863fdd16"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 82.55 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff33e44-6339-407c-a3a4-c0affdeb41d0")
+		(property "Reference" "#PWR0178"
+			(at 82.55 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 82.55 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
+			(at 82.55 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 82.55 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95310d43-4b74-4c92-9f5e-57b9650b8295")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/49ec0cf1-bacd-4d61-b90d-56be863fdd16"
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)

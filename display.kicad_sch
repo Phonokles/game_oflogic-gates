@@ -2055,6 +2055,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 48.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16066551-705f-4233-94d7-1fb7ba6dc92b")
+	)
+	(junction
+		(at 128.27 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330f4424-dcf8-4f5c-b816-d2c6f91f92fa")
+	)
+	(junction
+		(at 179.07 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9809bca9-b48d-4787-bcba-8c79f46390b5")
+	)
+	(junction
+		(at 118.11 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2212e7f-8eb4-489d-99f4-e21dfaec10b3")
+	)
+	(junction
+		(at 35.56 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd0f1f8a-0d6c-4cea-a715-dc852f7a7a15")
+	)
+	(junction
+		(at 48.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8081deb-4774-4d2f-a203-d037c6cd1a92")
+	)
+	(junction
+		(at 168.91 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d94be70d-4eb9-4d24-a610-1fa557df0028")
+	)
+	(junction
+		(at 35.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd67cf51-4f0e-4018-90e3-75beb2432587")
+	)
+	(junction
+		(at 78.74 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd90f544-3c3c-4e91-9544-21cc5bdc049d")
+	)
+	(junction
+		(at 78.74 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6cfad32-ea09-448b-b0d0-0f2590d5b68a")
+	)
 	(no_connect
 		(at 88.9 36.83)
 		(uuid "05aee23f-2362-4d19-8680-0b8d107d6e97")
@@ -2084,10 +2144,6 @@
 		(uuid "45aff35e-d91d-4a15-bc20-c61f193cbe3c")
 	)
 	(no_connect
-		(at 88.9 34.29)
-		(uuid "572c7fe0-147a-4b58-9921-a9cbed293396")
-	)
-	(no_connect
 		(at 88.9 41.91)
 		(uuid "67138af7-788e-4d37-925e-0c2fc711e331")
 	)
@@ -2098,10 +2154,6 @@
 	(no_connect
 		(at 158.75 52.07)
 		(uuid "7a230f74-dbc4-4724-9a5f-844514122b2b")
-	)
-	(no_connect
-		(at 88.9 31.75)
-		(uuid "8d6a6db0-4194-4a45-a554-fa2888ba9085")
 	)
 	(no_connect
 		(at 107.95 50.8)
@@ -2126,6 +2178,236 @@
 	(no_connect
 		(at 160.02 109.22)
 		(uuid "e7fbd56f-3517-4458-9b7f-ec3d46719c54")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 92.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a59edbb-c4ca-4304-a764-58e43121d78c")
+	)
+	(wire
+		(pts
+			(xy 191.77 36.83) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159f3095-2032-4a33-9761-47ba006e6c7e")
+	)
+	(wire
+		(pts
+			(xy 179.07 36.83) (xy 179.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369633d9-0ef5-43c6-87a1-e54728e314e4")
+	)
+	(wire
+		(pts
+			(xy 143.51 46.99) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d96dd2-1fce-4bd0-8184-0aeb2828eb97")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8adb51-e7f8-413a-9d21-4d3d16d83b84")
+	)
+	(wire
+		(pts
+			(xy 78.74 60.96) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67366389-7c9b-40b2-ae8b-d3f0a20623e9")
+	)
+	(wire
+		(pts
+			(xy 16.51 58.42) (xy 35.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b666bd5-5625-454c-ade0-7264e40e7ebc")
+	)
+	(wire
+		(pts
+			(xy 16.51 38.1) (xy 16.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7faec12c-e0a3-44fa-afa6-48361c0e093f")
+	)
+	(wire
+		(pts
+			(xy 48.26 109.22) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90853934-2150-4933-8c96-9064a935eec2")
+	)
+	(wire
+		(pts
+			(xy 143.51 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b8745a-908d-4cda-bd37-4122b906ff44")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 81.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c60b736-baa2-4f3b-b68e-7228adcf1a38")
+	)
+	(wire
+		(pts
+			(xy 128.27 30.48) (xy 128.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ce3607-211c-4b34-935e-244ab1dd68dc")
+	)
+	(wire
+		(pts
+			(xy 191.77 48.26) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2557efb-dbb6-4105-8f57-199d4a655ad5")
+	)
+	(wire
+		(pts
+			(xy 16.51 45.72) (xy 16.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa300ea-04be-455d-b2cf-03208e18cbf8")
+	)
+	(wire
+		(pts
+			(xy 191.77 40.64) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb378f6-c502-46fd-b773-828516eeea79")
+	)
+	(wire
+		(pts
+			(xy 16.51 25.4) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d723a6da-839a-474b-9906-cc9aa91a7d3f")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 128.27 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e135ca07-36bc-4d7b-bccf-29c15c575e0e")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98955e0-faa8-4469-9962-b9ca2b803497")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff6f561-e903-4dc6-be70-2c8d95015ede")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ddabe1-7d47-4752-9de7-7007566a93d0")
+	)
+	(wire
+		(pts
+			(xy 78.74 59.69) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b7b41e-9b04-457f-b4ec-5fcc9e489d4c")
+	)
+	(wire
+		(pts
+			(xy 92.71 26.67) (xy 78.74 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6b0637-c499-45dc-bf4d-6c973f640463")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 143.51 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd14982a-59e7-4f07-9b47-68f9866063b8")
 	)
 	(global_label "MZEILE5"
 		(shape input)
@@ -3351,7 +3633,7 @@
 			)
 		)
 	)
-	(global_label "ALIVE"
+	(global_label "alive"
 		(shape input)
 		(at 25.4 30.48 180)
 		(fields_autoplaced yes)
@@ -3363,7 +3645,7 @@
 		)
 		(uuid "29ed90e9-0bd3-4a6d-ae81-75275d56d1ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.4557 30.48 0)
+			(at 17.9396 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,6 +6201,30 @@
 			)
 		)
 	)
+	(global_label "DSPALTE9"
+		(shape input)
+		(at 88.9 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9696232b-8a95-4a59-926d-bfeda0be8e19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0775 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ZL2"
 		(shape input)
 		(at 35.56 88.9 180)
@@ -7132,6 +7438,30 @@
 		(uuid "cf1f9b36-73dc-4bce-a77c-990e3f85dcb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.2375 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DSPALTE8"
+		(shape input)
+		(at 88.9 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf7db6ae-6ff8-4616-a0e6-f5f34d02870f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0775 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9203,88 +9533,6 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
 					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11a10470-ce91-49b1-a8d3-13fb92391938")
-		(property "Reference" "C25"
-			(at 52.07 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 52.07 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.2252 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5be0e6a-2508-4efb-bcbe-a39045438381")
-		)
-		(pin "2"
-			(uuid "7ea3a214-9a25-48e1-b0e4-d4ecdeb0f889")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -11945,88 +12193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 35.56 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34505fa6-d5ba-4f24-bc4a-ac937b81d0ec")
-		(property "Reference" "C17"
-			(at 39.37 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 39.37 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.5252 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f268368-3bd5-4530-9df5-35f9faba7a75")
-		)
-		(pin "2"
-			(uuid "c68d95df-eb97-485b-aede-3ca0211126db")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 246.38 90.17 0)
 		(unit 1)
@@ -12541,7 +12707,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 67.31 0)
+		(at 168.91 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12552,7 +12718,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c5c2a09-99b8-46c3-83ab-47545fc40264")
 		(property "Reference" "#PWR0141"
-			(at 168.91 73.66 0)
+			(at 168.91 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12563,7 +12729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 72.39 0)
+			(at 168.91 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12573,7 +12739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 67.31 0)
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12584,7 +12750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 67.31 0)
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12595,7 +12761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 67.31 0)
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13687,6 +13853,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 16.51 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ef5936-9e6f-41cf-817c-0f48134b1367")
+		(property "Reference" "C23"
+			(at 8.89 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 11.43 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.4752 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 16.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00250529-4966-4016-a9c5-e0f4d99b7d46")
+		)
+		(pin "2"
+			(uuid "cd6a3364-8ca1-4aa4-bf54-d8e1b6d7d7cd")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 44.45 162.56 0)
 		(unit 1)
@@ -13859,7 +14105,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 35.56 17.78 0)
+		(at 35.56 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13870,7 +14116,7 @@
 		(fields_autoplaced yes)
 		(uuid "467c5535-6e82-4e7c-b774-511fabb78166")
 		(property "Reference" "#PWR0145"
-			(at 35.56 21.59 0)
+			(at 35.56 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13881,7 +14127,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 35.5599 13.97 90)
+			(at 35.5599 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13892,7 +14138,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 35.56 17.78 0)
+			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13903,7 +14149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 17.78 0)
+			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13914,7 +14160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 35.56 17.78 0)
+			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14108,8 +14354,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 33.02 270)
+		(lib_id "Device:C")
+		(at 81.28 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14118,10 +14364,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fdc9b41-e94c-46a1-bd35-5a59496b5b5d")
-		(property "Reference" "#PWR0142"
-			(at 132.08 33.02 0)
-			(hide yes)
+		(uuid "4f99c9ce-241c-4670-9767-b87dc29f517f")
+		(property "Reference" "C24"
+			(at 73.66 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14130,19 +14375,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 139.7 33.0199 90)
+		(property "Value" "C"
+			(at 76.2 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 135.89 33.02 0)
+		(property "Footprint" ""
+			(at 82.2452 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14153,7 +14397,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 33.02 0)
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0987b61-3bb8-4fd9-a909-15a16f07c321")
+		)
+		(pin "2"
+			(uuid "86a90b77-6eed-4b5d-984f-3ca689b67543")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 128.27 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fdc9b41-e94c-46a1-bd35-5a59496b5b5d")
+		(property "Reference" "#PWR0142"
+			(at 124.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 132.08 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
+			(at 128.27 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14164,7 +14490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 33.02 0)
+			(at 128.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15657,7 +15983,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 63.5 0)
+		(at 92.71 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15666,31 +15992,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "620e3cfd-5b62-4b5c-b43f-87617247ec9e")
-		(property "Reference" "C16"
-			(at 82.55 62.2299 0)
+		(uuid "638ddb9a-61d4-4444-8ac3-e3c949924a0e")
+		(property "Reference" "C22"
+			(at 85.09 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 82.55 64.7699 0)
+			(at 87.63 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 79.7052 67.31 0)
+			(at 93.6752 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15701,7 +16025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 63.5 0)
+			(at 92.71 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15712,7 +16036,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 63.5 0)
+			(at 92.71 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15723,15 +16047,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc297f17-cc81-4ae1-b712-dabbfa08b776")
+			(uuid "9546f5ca-e0ce-4330-bc60-37b7adde53c9")
 		)
 		(pin "2"
-			(uuid "91c4f440-1181-4d10-b484-3a5ea129cbd5")
+			(uuid "5c58ba02-5049-4630-87f4-f333a3c67f0d")
 		)
 		(instances
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C16")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -17379,7 +17703,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 186.69 34.29 270)
+		(at 179.07 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17390,7 +17714,7 @@
 		(fields_autoplaced yes)
 		(uuid "881ff38b-cafa-41f6-80a8-583950296981")
 		(property "Reference" "#PWR0143"
-			(at 182.88 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17401,7 +17725,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 190.5 34.2899 90)
+			(at 182.88 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17412,7 +17736,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 186.69 34.29 0)
+			(at 179.07 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17423,7 +17747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 34.29 0)
+			(at 179.07 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17434,7 +17758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 186.69 34.29 0)
+			(at 179.07 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17718,86 +18042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 35.56 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d42c282-e9d2-4209-998c-fccb3031674a")
-		(property "Reference" "C23"
-			(at 27.94 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 30.48 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.5252 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a11b31b4-26b3-4e34-b111-527a98267d12")
-		)
-		(pin "2"
-			(uuid "ebb6a41c-82e8-43ea-8e9f-cf90e796c460")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 200.66 109.22 0)
 		(unit 1)
@@ -17883,86 +18127,6 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
 					(reference "D128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 132.08 33.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "906810d5-ce3f-4731-b966-c10d9b9513ae")
-		(property "Reference" "C20"
-			(at 132.08 25.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 132.08 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 33.9852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2e2c596-e589-4d1f-b364-406abdbbb3c2")
-		)
-		(pin "2"
-			(uuid "b68775b7-6852-4fc3-8a64-835c9705f5f4")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -18203,86 +18367,6 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 78.74 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93eef111-0769-443d-83bf-c1d678745cdc")
-		(property "Reference" "C22"
-			(at 71.12 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 73.66 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.7052 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "843e299a-f8b4-42c4-9c25-d17d823ab764")
-		)
-		(pin "2"
-			(uuid "6dd74741-17ae-42c2-b94e-92d78f31de82")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18712,7 +18796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 116.84 0)
+		(at 48.26 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18723,7 +18807,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b5f6fa9-a8d5-4689-a933-1222a8279bf3")
 		(property "Reference" "#PWR0147"
-			(at 48.26 123.19 0)
+			(at 48.26 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18734,7 +18818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 121.92 0)
+			(at 48.26 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18744,7 +18828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 116.84 0)
+			(at 48.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18755,7 +18839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 116.84 0)
+			(at 48.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18766,7 +18850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 116.84 0)
+			(at 48.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19041,7 +19125,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 66.04 0)
+		(at 118.11 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19052,7 +19136,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cc12720-ffec-4f6b-ab89-773e69055fe7")
 		(property "Reference" "#PWR0140"
-			(at 118.11 72.39 0)
+			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19063,7 +19147,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 71.12 0)
+			(at 118.11 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19073,7 +19157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 66.04 0)
+			(at 118.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19084,7 +19168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 66.04 0)
+			(at 118.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19095,7 +19179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 66.04 0)
+			(at 118.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19119,7 +19203,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 66.04 0)
+		(at 35.56 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19130,7 +19214,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d3ce32b-5cd4-4234-9097-f9dc30efcb0f")
 		(property "Reference" "#PWR0139"
-			(at 35.56 72.39 0)
+			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19141,7 +19225,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 71.12 0)
+			(at 35.56 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19151,7 +19235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 66.04 0)
+			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19162,7 +19246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 66.04 0)
+			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19173,7 +19257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 66.04 0)
+			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19539,7 +19623,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 48.26 63.5 0)
+		(at 48.26 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19550,7 +19634,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fd8b2c3-bf13-43b6-bd13-7aa5ca0024d9")
 		(property "Reference" "#PWR0146"
-			(at 48.26 67.31 0)
+			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19561,7 +19645,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 48.2599 59.69 90)
+			(at 48.2599 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19572,7 +19656,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 48.26 63.5 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19583,7 +19667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 63.5 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19594,7 +19678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 63.5 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19618,7 +19702,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 78.74 19.05 0)
+		(at 78.74 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19629,7 +19713,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0397d3b-ea7d-4b9f-bcc6-56a61867192e")
 		(property "Reference" "#PWR0144"
-			(at 78.74 22.86 0)
+			(at 78.74 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19640,7 +19724,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 78.7399 15.24 90)
+			(at 78.7399 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19651,7 +19735,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 78.74 19.05 0)
+			(at 78.74 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19662,7 +19746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 19.05 0)
+			(at 78.74 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19673,7 +19757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 19.05 0)
+			(at 78.74 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20893,86 +20977,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 182.88 34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aba2bbf8-79dd-434a-9d97-1023b854c8eb")
-		(property "Reference" "C21"
-			(at 182.88 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 182.88 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 35.2552 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5dad34c9-a0b6-47b0-995f-8d2bcf0ccaf8")
-		)
-		(pin "2"
-			(uuid "f14e5a8a-d41b-42ce-bfd5-333bf27a9b82")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 246.38 101.6 0)
 		(unit 1)
@@ -21065,7 +21069,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 62.23 0)
+		(at 143.51 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21074,31 +21078,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac4e9582-9c8f-47c6-9461-2d953a0d7672")
-		(property "Reference" "C18"
-			(at 121.92 60.9599 0)
+		(uuid "abd7eb93-db66-477e-b9d5-31f09920bb57")
+		(property "Reference" "C34"
+			(at 135.89 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 121.92 63.4999 0)
+			(at 138.43 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.0752 66.04 0)
+			(at 144.4752 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21109,7 +21111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 62.23 0)
+			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21120,7 +21122,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 62.23 0)
+			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21131,15 +21133,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9a8b93c-92f5-432f-88bb-780e8eb1763b")
+			(uuid "8365ae64-9d80-4452-8d66-629d80ae6cf8")
 		)
 		(pin "2"
-			(uuid "fd120c9a-fb93-4a61-8ab1-b12661dc2ce6")
+			(uuid "6d0c1264-87de-455d-b094-302d45c9f171")
 		)
 		(instances
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C18")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -23059,7 +23061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 67.31 0)
+		(at 78.74 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23070,7 +23072,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9b1581-2b04-4eba-914d-653df00cf34d")
 		(property "Reference" "#PWR0137"
-			(at 78.74 73.66 0)
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23081,7 +23083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 72.39 0)
+			(at 78.74 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23091,7 +23093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 67.31 0)
+			(at 78.74 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23102,7 +23104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 67.31 0)
+			(at 78.74 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23113,7 +23115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 67.31 0)
+			(at 78.74 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23320,6 +23322,7 @@
 		(uuid "c7709072-9254-4b8a-b1d5-c18ecc7e78db")
 		(property "Reference" "U31"
 			(at 37.7033 22.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24040,6 +24043,86 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3fbcaed-632b-4e26-bead-387ee3b6fd10")
+		(property "Reference" "C33"
+			(at 184.15 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 186.69 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 192.7352 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61cd266c-e8f0-4340-96e2-7d655c4f6677")
+		)
+		(pin "2"
+			(uuid "7ae9a45e-e2bf-43f9-b85d-4dc3f28d3ef3")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -25334,88 +25417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 168.91 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6c4cdaf-93c5-41f7-a93e-ff51e937873d")
-		(property "Reference" "C19"
-			(at 172.72 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 172.72 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.8752 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbc7619f-0361-4f07-9770-58696a3a7380")
-		)
-		(pin "2"
-			(uuid "276bf7cd-ad15-449b-8faa-5d9a418d070c")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 200.66 116.84 0)
 		(unit 1)
@@ -26425,86 +26426,6 @@
 			(project "game_of_logicgatess"
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
 					(reference "D181")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1214135-edfc-4bbe-b5a0-0e489f1e6c69")
-		(property "Reference" "C24"
-			(at 40.64 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 43.18 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.2252 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19d8e491-2ff3-4ada-ac74-32fb1d7c8b97")
-		)
-		(pin "2"
-			(uuid "031dd99a-5be8-4521-8558-6dcd15314ed7")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/8ff467e1-658a-45d6-9f98-672abe505b40"
-					(reference "C24")
 					(unit 1)
 				)
 			)

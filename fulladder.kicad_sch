@@ -994,121 +994,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 96.52 52.07)
@@ -1123,20 +1008,16 @@
 		(uuid "28e1be65-bbc7-4019-ab41-94a129cdcc39")
 	)
 	(junction
+		(at 128.27 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a95ee19-4dd3-4187-9779-2839d867f70e")
+	)
+	(junction
 		(at 92.71 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5919ed00-ec75-410c-b1de-b647ac7e629d")
-	)
-	(wire
-		(pts
-			(xy 123.19 54.61) (xy 123.19 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bbf933-53c1-4925-86cf-04e00216fa17")
 	)
 	(wire
 		(pts
@@ -1167,6 +1048,16 @@
 			(type default)
 		)
 		(uuid "11f983da-c65c-4026-98f5-5668fddbc807")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4d5f5e-7d27-4a53-be6c-e16a642824d2")
 	)
 	(wire
 		(pts
@@ -1210,6 +1101,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 95.25) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5743d1ef-86f3-4e01-bc72-f188ae240e86")
+	)
+	(wire
+		(pts
 			(xy 87.63 52.07) (xy 96.52 52.07)
 		)
 		(stroke
@@ -1220,6 +1121,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 54.61) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a26cc72-a540-4e29-99e3-e0fd4e37f8a9")
+	)
+	(wire
+		(pts
 			(xy 92.71 57.15) (xy 92.71 78.74)
 		)
 		(stroke
@@ -1227,16 +1138,6 @@
 			(type default)
 		)
 		(uuid "79858c02-cbf5-4b4f-b67a-aa6ea0f6264b")
-	)
-	(wire
-		(pts
-			(xy 123.19 97.79) (xy 124.46 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7c312f-885c-4fee-91f2-c257b6513abf")
 	)
 	(wire
 		(pts
@@ -1280,6 +1181,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44e87a3-d375-4d4d-8863-4faa15ecf0bc")
+	)
+	(wire
+		(pts
 			(xy 92.71 78.74) (xy 96.52 78.74)
 		)
 		(stroke
@@ -1300,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 133.35 54.61)
+			(xy 125.73 54.61) (xy 128.27 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1458,6 +1369,96 @@
 				)
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/e780d2e5-09a7-412c-ad65-7441ad6db931"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 167.64 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "154d4631-fce7-45d1-9e49-dd959ee5bf54")
+		(property "Reference" "#PWR0180"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.64 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
+			(at 167.64 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 167.64 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dcada70-fe60-4548-ba99-35c60eb9653d")
+		)
+		(instances
+			(project "game_of_logicgatess"
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/431affb0-147a-4519-9b8e-15360a5af8cd"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/7879aaf0-3940-4eeb-b277-7ff442f6b7a8"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/8a2b2a92-605a-4779-8962-a968838a0027"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/e780d2e5-09a7-412c-ad65-7441ad6db931"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -2301,96 +2302,6 @@
 				)
 				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/e780d2e5-09a7-412c-ad65-7441ad6db931"
 					(reference "U54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 167.64 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9858c764-d838-4697-a22b-a81f1456ea34")
-		(property "Reference" "#FLG04"
-			(at 167.64 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 167.64 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3a2f4d8-e2c7-47c4-a68d-5c7888570192")
-		)
-		(instances
-			(project "game_of_logicgatess"
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/431affb0-147a-4519-9b8e-15360a5af8cd"
-					(reference "#FLG07")
-					(unit 1)
-				)
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/7879aaf0-3940-4eeb-b277-7ff442f6b7a8"
-					(reference "#FLG04")
-					(unit 1)
-				)
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/8a2b2a92-605a-4779-8962-a968838a0027"
-					(reference "#FLG05")
-					(unit 1)
-				)
-				(path "/971c6b5a-836c-4d36-bf8c-da49bad67e6d/aa8a5c47-fc35-4c5a-8837-8731560a8575/e780d2e5-09a7-412c-ad65-7441ad6db931"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
